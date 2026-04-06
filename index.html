@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Buku Online - Waldiansah simanjuntak</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>📚 Toko Buku Online - Waldiansah Simanjuntak</h1>
+    </header>
+
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Produk</a>
+      <a href="#">Pembelian</a>
+    </nav>
+
+    <main>
+      <!-- PRODUK -->
+      <section>
+        <h2>✨ Daftar Buku</h2>
+        <div id="produk-container" class="produk-container"></div>
+      </section>
+
+      <!-- FORM -->
+      <section class="form-box">
+        <h2>🛒 Form Pembelian</h2>
+        <form id="formPembelian">
+          <input type="text" id="nama" placeholder="Nama" required />
+          <small class="error"></small>
+
+          <input type="email" id="email" placeholder="Email" required />
+          <small class="error"></small>
+
+          <input type="password" id="password" placeholder="Password" required />
+          <small class="error"></small>
+
+          <input type="number" id="jumlah" placeholder="Jumlah" required />
+          <small class="error"></small>
+
+          <select id="kategori">
+            <option>Novel</option>
+            <option>Komik</option>
+          </select>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="bayar" />
+              Transfer
+            </label>
+            <label>
+              <input type="radio" name="bayar" />
+              COD
+            </label>
+          </div>
+
+          <button type="submit">Beli Sekarang</button>
+        </form>
+      </section>
+
+      <!-- TAMBAH -->
+      <section class="tambah-box">
+        <h2>➕ Tambah Buku</h2>
+        <div class="tambah">
+          <input type="text" id="judulBaru" placeholder="Judul Buku" />
+          <button onclick="tambahProduk()">Tambah</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Waldiansah Simanjuntak - 2409010017</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
