@@ -6,8 +6,8 @@ body {
 
 /* HEADER */
 header {
-  background: linear-gradient(135deg, #4caf50, #2e7d32);
-  color: white;
+  background: linear-gradient(135deg, #0e0d0d, #1b40e6);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px;
 }
@@ -61,7 +61,7 @@ main {
 
 /* BUTTON */
 button {
-  background: #2196f3;
+  background: #170da0;
   color: white;
   border: none;
   padding: 10px;
@@ -96,7 +96,7 @@ form select {
 }
 
 .error {
-  color: red;
+  color: rgb(7, 5, 161);
   font-size: 12px;
 }
 
@@ -109,7 +109,7 @@ form select {
 /* FOOTER */
 footer {
   text-align: center;
-  background: #333;
+  background: #221e1e;
   color: white;
   padding: 10px;
   margin-top: 20px;

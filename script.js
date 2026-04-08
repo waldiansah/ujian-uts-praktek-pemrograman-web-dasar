@@ -1,8 +1,8 @@
 let produk = [
   { id: 1, judul: 'Laskar Pelangi', harga: 80000 },
-  { id: 2, judul: 'Kisah danau toba', harga: 120000 },
+  { id: 2, judul: 'Berani berubah untuk hidup yang lebih baik ', harga: 120000 },
   { id: 3, judul: 'Hidup setelah ibu pergi', harga: 95000 },
-  { id: 4, judul: 'Bu,tidak ada teman menangis m', harga: 70000 },
+  { id: 4, judul: 'Bu,tidak ada teman menangis malam ini', harga: 70000 },
 ];
 
 function tampilkanProduk() {
